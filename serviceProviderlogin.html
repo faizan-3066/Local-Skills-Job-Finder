@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Provider Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="font-family: 'Times New Roman'; background-image: url('./Images/Local Skills & Job Finder Background.png'); background-size: cover; background-position: center; margin: 0; padding: 20px;">
+
+    <div style="max-width: 450px; margin: 50px auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 8px black;">
+
+        <h1 style="text-align: center; color: #0755b8;">
+            Local Skills & Job Finder
+        </h1>
+        <h2 style="text-align: center; color: #222;">
+            Service Provider Login
+        </h2>
+        <p style="text-align: center; color: gray;">
+            Login to manage your services
+        </p>
+
+        <form onsubmit="login(event)">
+            <label>Email Address</label>
+
+            <input type="email" id="email" placeholder="Enter your email" required
+            style="width: 100%; padding: 12px; margin-top: 8px; box-sizing: border-box; border: 1px solid black; border-radius: 5px;">
+            <br><br>
+            <label>Password</label>
+            <br>
+            <input type="password" id="password" placeholder="Enter your password" required
+            style="width: 100%; padding: 12px; margin-top: 8px; box-sizing: border-box; border: 1px solid black; border-radius: 5px;">
+            <br><br>
+            <button type="submit"
+            style="width: 100%; padding: 13px; background-color: #0755b8; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                Login
+            </button>
+
+        </form>
+
+        <p style="text-align: center; margin-top: 25px;">
+            Don't have an account?
+            <a href="#" style="color: #0755b8;">
+                Sign Up
+            </a>
+        </p>
+
+        <p style="text-align: center;">
+            <a href="index.html" style="color: gray; text-decoration: none;">
+                Back to Home
+            </a>
+        </p>
+
+    </div>
+
+    <script>
+
+        function login(event) {
+            event.preventDefault();
+            alert("Service Provider Login Successful!");
+        }
+
+    </script>
+
+</body>
+</html>

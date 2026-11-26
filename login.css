@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-image: url('./Images/Local\ Skills\ &\ Job\ Finder\ Background.png');
+    background-size: cover; 
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.header {
+    background-color: #0755b8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+    font-size: 25px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.login-box h2 {
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.login-box p {
+    color: #666;
+}
+
+.role-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.role-buttons button {
+    width: 50%;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #0755b8;
+    color: #0755b8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.role-buttons button.active {
+    background-color: #0755b8;
+    color: white;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 7px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 22px;
+    background-color: #0755b8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup {
+    margin-top: 25px;
+}
+
+.signup a {
+    color: #0755b8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .container {
+        margin: 10px auto;
+    }
+
+    .login-box {
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 21px;
+    }
+}

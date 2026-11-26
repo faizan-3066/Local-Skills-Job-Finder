@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Skills & Job Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Local Skills & Job Finder</h1>
+            <p>Find Skilled Professionals Near You</p>
+        </div>
+        <div class="login-box">
+            <h2>Welcome Back!</h2>
+            <p>Login to continue</p>
+            <div class="role-buttons">
+                <button type="button" id="customer"
+                    onclick="selectRole('Customer')">
+                   <a href="login.html"> Customer </a>
+                </button>
+
+                <button type="button" id="provider"
+                    onclick="selectRole('Service Provider')">
+                    <a href="serviceProviderlogin.html" style="color: #0755b8; text-decoration: none;">
+                        Service Provider
+                    </a>
+                </button>
+            </div>
+
+            <form onsubmit="login(event)">
+
+                <label>Email Address</label>
+                <input type="email" id="email"
+                    placeholder="Enter your email" required>
+
+                <label>Password</label>
+                <input type="password" id="password"
+                    placeholder="Enter your password" required>
+
+                <button type="submit" class="login-btn">
+                    Login
+                </button>
+
+            </form>
+
+            <p class="signup">
+                Don't have an account?
+                <a href="signup.html">Sign Up</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

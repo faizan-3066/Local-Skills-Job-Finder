@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Services</title>
+</head>
+    <script src="service.js"></script>
+<body style="font-family: 'Times New Roman'; background-color: #EAF2FA;">
+    <!-- Navbar -->
+
+    <div style="background-color: #142D4E; padding: 18px; display: flex; justify-content: space-between; align-items: center;">
+        <h2 style="color: white;">
+            Local Skills
+        </h2>
+        <div>
+            <a href="index.html" style="color: white; margin: 10px;">Home</a>
+            <a href="services.html" style="color: white; margin: 10px;">Services</a>
+            <a href="aboutus.html" style="color: white; margin: 10px;">About Us</a>
+        </div>
+        <div>
+           
+        <input type="text" id="locationSearch"placeholder="Enter your location." style="padding: 10px; width: 220px; border-radius: 5px; border: 1px black;">
+        <button onclick="searchProviders()" style="padding: 15px; background-color: #4A90E2; color: white; border: none; border-radius: 5px;">
+            Search
+            </button>
+            <a href="login.html" style="background-color: white; color: #4A90E2; padding: 10px 15px; margin-left: 10px; text-decoration: none; border-radius: 5px;">
+                Login
+            </a>
+        </div>
+    </div>
+    
+<!-- Service Provider Profiles -->
+
+<div style="padding: 40px; background-color: #EAF2FA;">
+    <h1 style="text-align: center; color: #142D4E;">
+        Our Service Providers
+    </h1>
+    <h3 style="text-align: center; font-size: 30px;">
+        Meet our skilled professionals and find the right worker for your needs.
+    </h3>
+
+    <div style="display: flex; justify-content: center; gap: 30px; margin-top: 40px;">
+
+        <!-- House Helper -->
+        <div class="provider-card" data-location="Qila Didar Singh" style="background-color: white; width: 280px; padding: 20px; border-radius: 10px;">
+            <img src="areeba.jpg" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+            <h2>Areeba</h2>
+            <h3 style="color: #4A90E2;">House Helper</h3>
+            <p>
+                4 years of experience in cooking, cleaning,<br>
+                washing clothes and dishes, and taking care<br>
+                of children and elderly people.
+            </p>
+            <p><b>Location:</b> Qila Didar Singh</p>
+        </div>
+
+        <!-- Mistri -->
+        <div class="provider-card" data-location="Pak Town, Kamoki" style="background-color: white; width: 280px; padding: 20px; border-radius: 10px;">
+            <img src="adnan.jpg" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+            <h2>Adnan Iftekhar</h2>
+            <h3 style="color: #4A90E2;">Mistri</h3>
+            <p>
+                10 years of experience in tile work, plaster<br>
+                and chunai. Works independently as well<br>
+                as with a construction team.
+            </p>
+            <p><b>Location:</b> Pak Town, Kamoki</p>
+        </div>
+
+        <!-- AC Technician -->
+        <div class="provider-card" data-location="Gujranwala" style="background-color: white; width: 280px; padding: 20px; border-radius: 10px;">
+            <img src="abubaker.jpg" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+            <h2>Abubaker Anwar</h2>
+            <h3 style="color: #4A90E2;">AC Technician</h3>
+            <p>
+                10 years of experience in AC cleaning,<br>
+                refrigerator, microwave and automatic<br>
+                washing machine repairs.
+            </p>
+            <p><b>Location:</b> Gujranwala</p>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
