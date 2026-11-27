@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 600px;
     margin: 40px auto;
+
 }
 
 .header {
@@ -17,7 +18,7 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px;
 }
 
 .header h1 {
@@ -29,7 +30,7 @@ body {
     padding: 30px;
     border-radius: 0 0 8px 8px;
     text-align: center;
-    box-shadow: 0 2px 8px #ccc;
+    box-shadow: 0 2px 8px black;
 }
 
 .login-box h2 {
@@ -97,6 +98,27 @@ input {
     color: #0755b8;
     text-decoration: none;
     font-weight: bold;
+}
+
+.signup-box {
+    border: 2px solid #0755b8;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.signup-btn{
+    width: 100%;
+    padding: 13px;
+    margin-top: 22px;
+    background-color: #0755b8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 @media (max-width: 500px) {
